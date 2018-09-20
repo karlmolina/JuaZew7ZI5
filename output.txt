@@ -1,0 +1,19 @@
+You must sort these numbers: [9, 3, 6, 8, 7]
+Which math software would you like to use to sort them?
+Mathematica (1), MTool (2), or MyMath (3)?
+1
+Creating a new instance of the Mathematica software
+Executing Mathematica's default sorting algorithm...
+Sorting the numbers using Insertion Sort
+Insertion Sort executed.
+Your result is: [3, 6, 7, 8, 9]
+
+You must now sort these numbers: [5, 3, 1, 7, 2]
+Which new sorting algorithm would you like to use?
+InsertionSort (1), MergeSort (2), or BubbleSort (3)?
+2
+Setting your math software's (Mathematica) sorting algorithm to Merge Sort
+Executing new sorting algorithm...
+Sorting the numbers using Merge Sort
+Merge Sort executed.
+Your result is: [1, 2, 3, 5, 7]
