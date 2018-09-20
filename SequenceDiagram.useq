@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence-diagram version="1.2.2" icons="true" automaticImage="PNG" generate-combined-fragments="true">  
+  <object id="1" language="java" name="esof322hw2.Client" project="esof322hw2version2" 
+    file="/esof322hw2version2/src/esof322hw2/Client.java" binary="false" label="client" type="class" autoSize="false">    
+    <position height="556" width="164" x="0" y="0"/>    
+    <execution id="2">      
+      <position height="185" width="0" x="0" y="363"/>    
+    </execution>    
+    <execution id="4">      
+      <position height="122" width="0" x="0" y="405"/>    
+    </execution>  
+  </object>  
+  <object id="9" language="java" name="esof322hw2.MathSoftware" project="esof322hw2version2" 
+    file="/esof322hw2version2/src/esof322hw2/Client.java" binary="false" label="mathSoftware" type="class" 
+    autoSize="false">    
+    <position height="475" width="313" x="164" y="0"/>    
+    <execution id="6">      
+      <position height="72" width="0" x="0" y="434"/>    
+    </execution>    
+    <execution id="8">      
+      <position height="21" width="7" x="320" y="476"/>    
+    </execution>  
+  </object>  
+  <object id="12" language="java" name="esof322hw2.ISortStrategy" project="esof322hw2version2" 
+    file="/esof322hw2version2/src/esof322hw2/Client.java" binary="false" label="iSortStrategy" type="interface" 
+    autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="11">      
+      <position height="21" width="0" x="0" y="464"/>    
+    </execution>  
+  </object>  
+  <message id="3" operation="main(java.lang.String[]):void" asynchronous="false" x="95" y="365">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="4"/>  
+  </message>  
+  <message id="5" operation="mathSort(int[]):void" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="6"/>  
+  </message>  
+  <message id="7" operation="setSortStrategy(esof322hw2.ISortStrategy):void" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="8"/>  
+  </message>  
+  <message id="10" operation="sort(int[]):void" asynchronous="false">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="11"/>  
+  </message>
+</sequence-diagram>

@@ -85,6 +85,11 @@ abstract class MathSoftware {
 	
     protected ISortStrategy sortStrategy;
     
+    protected MathSoftware(ISortStrategy sortStrategy) {
+    	System.out.println("Creating a Math Software: ");
+    	this.sortStrategy = sortStrategy;
+    }
+    
     public void setSortStrategy(ISortStrategy sortStrategy) {
         System.out.println("Setting your math software's (" + this + ") sorting algorithm to " + sortStrategy);
         this.sortStrategy = sortStrategy;
@@ -102,8 +107,8 @@ abstract class MathSoftware {
 class Mathematica extends MathSoftware {
     
     public Mathematica() {
-        System.out.println("Creating a new instance of the Mathematica software");
-        sortStrategy = new InsertionSort();
+    	super(new InsertionSort());
+        System.out.println("\tInitializing Mathematica");
     }
     
     @Override
@@ -118,8 +123,8 @@ class Mathematica extends MathSoftware {
 class MTool extends MathSoftware {
     
     public MTool() {
-        System.out.println("Creating new instance of the MTool software");
-        sortStrategy = new MergeSort();
+    	super(new MergeSort());
+        System.out.println("\tInitializing MTool");
     }
     
     @Override
@@ -134,8 +139,8 @@ class MTool extends MathSoftware {
 class MyMath extends MathSoftware {
     
     public MyMath() {
-        System.out.println("Creating a new instance of the MyMath software");
-        sortStrategy = new BubbleSort();
+    	super(new BubbleSort());
+        System.out.println("\tInitializing MyMath");
     }
     
     @Override
