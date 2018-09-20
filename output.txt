@@ -1,3 +1,7 @@
+Karl Molina
+Dana Parker
+ESOF322 HW2 Output
+
 You must sort these numbers: [9, 3, 6, 8, 7]
 Which math software would you like to use to sort them?
 Mathematica (1), MTool (2), or MyMath (3)?
